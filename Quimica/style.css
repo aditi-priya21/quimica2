@@ -1,0 +1,321 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    width: 100vw;
+    /* background-color: rgb(248, 159, 127); */
+}
+nav{
+    height: 5vw;
+    width: auto;
+    background-color: rgb(15, 4, 62);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+  
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.header{
+    height: auto;
+    width: 100vw;
+    background-color: rgb(12, 8, 41);
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+}
+.text img{
+height: 5vw;
+border-radius: 50%;
+}
+.image img{
+    border-radius: 50%;
+    height: 5vw;  
+    margin: 15px; 
+}
+.text div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.image div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 15px;
+}
+.image div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.animation{
+    font-size: 32px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about img{
+    border-radius: 30%;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2vh;
+    
+}
+.footer{
+    height: auto;
+    width: 100vw;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.first :first-child{
+    color: orange;
+}
+.copywrite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(11, 4, 77);
+    color: aliceblue;
+    height: 3vw;
+}
+.content{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.event1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    height: auto;
+    width: auto;
+    background-color:  rgb(194, 154, 154);
+    border-radius: 2vw;
+}
+
+
+
+ .event, .competition{
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+ .event :first-child{
+    font-size: larger;
+ }
+  .stuff{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border: 2px solid rgb(239, 224, 224);
+    box-shadow: 4px 4px  10px grey;
+
+ } 
+ .stuff :first-child{
+    font-weight: bolder;
+ }
+ 
+ 
+ .stuff2{
+    height: auto;
+    width: 20vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    border: 2px solid rgb(228, 223, 223);
+text-align: center;
+box-shadow: 4px 4px  10px grey;
+ }
+ .stuff2 :first-child{
+    font-weight: bolder;
+ }
+
+ .wholesegment{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+ }
+ .segment img , .segment1 img{
+    height: 40vh;
+    width: 30vw;
+    border-radius: 20%;
+    border: 5px solid rgb(247, 239, 239);
+    box-shadow: 4px 4px  10px grey;
+
+ }
+ .ourteam{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+
+ }
+ .ourteam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+ }
+ .ourteam img{
+height: 19vh;
+width: 15vw;
+margin: 10px;
+ }
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+    border: 2px solid rgb(247, 239, 239);
+text-align: center;
+}
+.team :nth-child(2){
+    font-size: larger;
+    font-weight: bolder;
+}
+.team :nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+}
+.quimicacontent, .ourteam{
+    background-color: rgb(247, 239, 239);
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text, .image {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text img, .image img {
+        height: 20vw;
+        margin: 10px 0;
+    }
+
+    .header {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .animation {
+        font-size: 24px;
+    }
+
+    .stuff2 {
+        width: 90vw;
+    }
+
+    .segment img, .segment1 img {
+        width: 90vw;
+        height: auto;
+    }
+
+    .ourteam img {
+        width: 40vw;
+        height: auto;
+    }
+
+    .copywrite {
+        height: auto;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .team {
+        width: 90vw;
+    }
+
+    .stuff {
+        width: 90vw;
+    }
+
+    .event1 {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .wholesegment {
+        flex-direction: column;
+    }
+
+    .ourteam {
+        flex-direction: column;
+    }
+
+    .contact, .about, .first, .content {
+        padding: 10px;
+    }
+}
